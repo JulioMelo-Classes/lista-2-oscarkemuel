@@ -17,6 +17,9 @@ namespace graal {
  * @param last Ponteiro para a posição logo após o último elemento do range
  *
  */
+ /*
+ blz
+ */
 template < typename Itr >
 void reverse( Itr first, Itr last ){
   // iter_swap: Troca dois valores referenciados por um par de iteradores especificados.
