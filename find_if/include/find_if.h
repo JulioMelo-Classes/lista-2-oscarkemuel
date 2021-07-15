@@ -18,6 +18,9 @@ namespace graal {
  * @param last Ponteiro para a posição logo após o último elemento do range ser considerado
  * @param p Função para testar se um valor no range satisfaz o predicado p
  */
+ /*
+ ok
+ */
 template<class InputIt, class UnaryPredicate>
 InputIt find_if(InputIt first, InputIt last, UnaryPredicate p){
   for (InputIt i = first; i != last; ++i){

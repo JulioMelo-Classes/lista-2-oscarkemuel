@@ -19,6 +19,9 @@ namespace graal {
  * @param value O valor a ser comparado na função
  * @param eq Função para comparar os valores ao invés dos operadores usuais
  */
+ /*
+ ok, parecida com equal.
+ */
 template<class InputIt, class T, class Equal>
 InputIt find(InputIt first, InputIt last, const T& value, Equal eq){
   // TODO

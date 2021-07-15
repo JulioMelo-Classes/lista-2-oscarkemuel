@@ -17,6 +17,9 @@ namespace graal {
  * @param last Ponteiro para a posição logo após o último elemento do range ser considerado
  * @param d_first O inicio do range onde os elementos devem ser copiados.
  */
+ /*
+ ok, veja que iterators não são obrigatoriamente ponteiros
+ */
 template<class InputIt>
 InputIt copy(InputIt first, InputIt last, InputIt d_first){
     // TODO
